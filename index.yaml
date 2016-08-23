@@ -1,0 +1,226 @@
+- chapter_title:
+  chapter_description: Calculations, variables, functions, manipulation of string objects
+  exercises:
+  -   type    : MultipleChoiceExercise
+      title   : What is BMI?
+      content : Calculating BMI (Intro, ch1, ex5)
+
+  -   type    : NormalExercise
+      title   : Assigning your result to a new variable
+      content : Call weight and height as variables and store the result of calculation in a variable (intro, ch1, ex 7; Intro, ch1, ex8). Check type of the result (ch1, ex10)
+
+  -   type    : NormalExercise
+      title   : Create a list
+      content : Given a few records of BMI, create a list (ch2, ex2).
+
+  -   type    : NormalExercise
+      title   : Get Ethan's height
+      content : Given a list, find an element with its index(intro, ch2, ex7).
+
+  -   type    : NormalExercise
+      title   : Separating Weights and Heights
+      content : Given a list of two lists (intro, ch2, ex5), weight and height, get an element of thee weight list, and put weight and height into two individual lists (intro, ch2, ex11).
+
+  -   type    : NormalExercise
+      title   : Finding the maximum height of a class
+      content : max() (Intro, Chap 3, ex 3)
+
+  -   type    : NormalExercise
+      title   : Deleting a record from the list
+      content : Deleting an element from a list first by `del` (Intro, ch2, ex15), then by slicing (Intro, ch2, ex9)
+
+  -   type    : NormalExercise
+      title   : Adding more records
+      content : Adding more elements to a list first by adding (Intro, ch2, ex14), then by appending to list .append() (Intro, ch3, ex8)
+
+  -   type    : NormalExercise
+      title   : Updating a record
+      content : Replacing a record (Intro, ch2, ex13)
+
+  -   type    : NormalExercise
+      title   : Calculating an Individual's BMI
+      content : Select an individual's weight and height from two lists, respectively, and calculte (Intro, ch2, ex8).
+
+  -   type    : MultipleChoiceExercise
+      title   : Finding he length of string and counting a word's appearance
+      content : Distinguish between built-in functions and object-specific methods. Find the length of weight (Intro, ch3, ex1) and count the appearance of a weight in list (intro, ch3, ex6).
+
+  -   type    : NormalExercise
+      title   : Calculating everyone's BMI
+      content : Use a for loop to loop over the weight its index (Intermediate, ch 4, ex 8), use the index to get acoording element in height list (Intro, ch2, ex7) to calculate everyone's BMI (Intro, ch2, ex) and append to the BMI list (Intro, ch3, ex8).
+
+- chapter_title : Pascal's triangle
+  chapter_description: String methods, list methods, Using funcitons from Imported packages, numpy.
+  exercises:
+
+  -   type    : NormalExercise
+      title   : Counting the appearances of the digit "0"
+      content : string's count method (Intro, ch3, ex 6)
+
+  -   type    : NormalExercise
+      title   : Where is the middle number?
+      content : Find the index of an element (in this case a word) in a list (Intro, ch3, ex7).
+
+  -   type    : NormalExercise
+      title   : Removing the middle word
+      content : Check if the middel word appears only once (Intro, ch3, ex7) ; remove an element from a list (Intro, ch3, ex8).
+
+  -   type    : NormalExercise
+      title   : Reversing the list
+      content : Reverse list(Intro, ch3, ex8)
+
+  -   type    : NormalExercise
+      title   : From list to array
+      content : Using a function from a package (in this case np.array) (Intro, ch3, ex10; Intro, ch4, ex2)
+
+  -   type    : NormalExercise
+      title   : Import only numpy.array
+      content : Selective Import (Intro, ch3, ex11).
+
+
+  -   type    : NoralExercise
+      title   : Subsetting Array
+      content : Subset array (Intro, ch4, ex7)
+
+  -   type    : NormalExercise
+      title   : Median and Average
+      content : Find median and average of array(Intro, ch4, ex14)
+
+  -   type    : NormalExercise
+      title   : Standard Deviation
+      content : Find standard deviation of an array(Intro, ch4, ex15)
+
+
+- chapter_title : Analysing World Cup Performance
+  chapter_description: Use Numpy, matplotlib to create plots analysing different teams' performance in world cup.
+  exercises :
+  -   type    : MultipleExercise
+      title   : List and array
+      content : Commpare how operants behave differently on arrays and lists (Intro, ch4, ex6).
+
+  -   type    : NormalExercise
+      title   : Selecting elements of array with boolean
+      content : Choose elements based on a condition (Intermediate, ch3, ex4)
+
+  -   type    : NormalExercise
+      title   : Creating a 2D array
+      content : 2D array (Intro, ch4, ex9)
+
+  -   type    : MultipleChoiceExercise
+      title   : Subsetting 2D array
+      content : subsetting 2D array(Intro, ch4, ex11), finding the shape of 2D array (Intro, ch4, ex10)
+
+  -   type    : NormalExercise
+      title   : 2D arrays together
+      content : 2D array addition (Intro, ch4, ex12)
+
+  -   type    : NormalExercise
+      title   : Plotting your array
+      content : Plot an array with matplotlib.pylot (Intermediate, ch1, ex2)
+
+  -   type    : NormalExercise
+      title   : Using the scatterplot
+      content : Plot an array with scatterplot (Intermediate, ch1, ex5; Intermediate, ch1, ex6)
+
+  -   type    : NormalExercise
+      title   : Fine-tuning the Plot (1)
+      content : Changing the labels, ticks, names of a plot (Intemediate, ch1, ex14; Intermediate, ch1, ex15; Intermediate, ch1, ex18)
+
+  -   type    : NormalExercise
+      title   : Fine-tuning the Plot (2)
+      content : Changing the size, color of a plot (Intemediate, ch1, ex16; Intermediate, ch1, ex17)
+
+  -   type    : NormalExercise
+      title   : Building a histogram
+      content : Create a histogram for from an array, choose bins (Intermediate, ch1, ex8; Intermediate, ch1, ex9)
+
+
+- chapter_title: Creating Artist Profiles
+  chapter_description: Use dictionary and panda DataFrame to create profiles of artists on spotify.
+  exercises :
+  -   type    : NormalExercise
+      title   : Create a dictionary
+      content : create a dictionary to store an artist's frofile (Intermediate, ch2, ex3)
+
+  -   type    : NormalExercise
+      title   : Accessing an artist's profile data
+      content : Accessing data from dictionary (Intermediate, ch2, ex4)
+
+  -   type    : NormalExercise
+      title   : Updating profile
+      content : Changing content of dictionary and deleting record from dictionary(Intermediate, ch2, ex6; Intermediate, ch2, ex7)
+
+  -   type    : NormalExercise
+      title   : Profiles of several artists
+      content : Create a dictionary of dictionaries, each storing the profile of one artist (Intermediate, ch2, ex8)
+
+  -   type    : NormalExercise
+      title   : Panda DataFrame
+      content : Create a panda df from a dictionary (Intermediate, ch2, ex10)
+
+  -   type    : NormalExercise
+      title   : Changing Labels
+      content : change the row label of the df (Intermediate, ch2, ex11)
+
+  -   type    : NormalExercise
+      title   : CSV to DataFrame
+      content : Create a panda df from a csv, change the index_cols (Intermediate, ch2, ex12; Intermediate, ch2, ex13)
+
+  -   type    : NormalExercise
+      title   : Selecting a column
+      content : Use square brackets to select column (Intermediate, ch2, ex15)
+
+  -   type    : NormalExercise
+      title   : Selecting a row
+      content : Use `loc` and `iloc` to select a row (Intermediate, ch2, ex17)
+
+  -   type    : NormalExercise
+      title   : Selecting an entry
+      content : Use `loc` and `iloc` to select specific entry/entries (Intermediate, ch2, ex18; Intermediate, ch2, ex19)
+
+- chapter_title: Complex Manipulations of the Last Two Datasets
+  chapter_description: use logic, control flow, filtering, and loops to manipulate the world cup dataset and the spotify artists dataset
+  exercises :
+  -   type    : NormalExercise
+      title   : comparison operator
+      content : Use comparison operator on the total goals of a soccer game (Intermediate, ch3, ex3)
+
+  -   type    : NormalExercise
+      title   : Compare Arrays
+      content : Compare if the goals of a team's matches are more than 2 and if they are omre than another team's goals (Intermediate, ch3, ex4)
+
+  -   type    : NormalExercise
+      title   : Boolean Operators
+      content : Use and, or and not on the goals of a team (Intermediate, ch3, ex6)
+
+  -   type    : NormalExercise
+      title   : Boolean operator on numpy
+      content : Use np.logical to use boolean operator on np array (Intermediate, ch3, ex8)
+
+  -   type    : NormalExercise
+      title   : Looping over a list
+      content : For loop over a list of soccer game results (Intermediate, ch4, ex6)
+
+  -   type    : NormalExercise
+      title   : Loop over numpy array
+      content : For loop over the np array of soccer game results and use boolean operators (Intermediate, ch4, ex12; Intermediate, ch4, ex 6)
+
+  -   type    : NormalExercise
+      title   : If, elif, else
+      content : Loop over the np array of soccer game resultsa and use these three statements, as well as boolean operators, on the goals of world cup teams (Intermediate, ch3, ex11)
+
+  -   type    : MultipleChoiceExercise
+      title   : Filtering DataFrame
+      content : Filter only groups with more than one album in the artist dataframes we created in the last chapter (Intermediate, ch4, ex15)
+
+  -   type    : NormalExercise
+      title   : Looping over dictoinary
+      content : Use while loop (Intermediate, Ch4, ex3) to Loop over the dictionary representing artists' profiles (Intermediate, ch4, ex11)
+
+  -   type    : NormalExercise
+      title   : Looping over DataFrame
+      content : Loop over the pd df of artist profiles(Intermdiate, ch4, ex14; Intermediate, ch4, ex15)
+
+  -   type    : NromalExercise
+      title   : Add columns
+      content : Loop over the pd df of artist profiles and Add columns along the way(Intermediate, ch4, ex16; Intermediate, ch4, ex17)
